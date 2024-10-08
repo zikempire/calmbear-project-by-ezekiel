@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Righteous&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:var {
+  --headercolor: #08748c;
+  --downloadappbutton: #f97f0f;
+  --downloadappbuttontext: #ffffff;
+  --registerbuttoncolorandborder: #f97f0f;
+  --secondarycolor: #f97f0f;
+  --textcolor: #000000;
+  --headerbgcolor: #08748c4d;
+}
+.bg-light {
+  background: #08748c !important;
+}
+h1 {
+  font-family: "Righteous", sans-serif;
+}
+h3 {
+  font-family: "Righteous", sans-serif;
+}
+p {
+  font-family: "Reddit Sans Condensed", sans-serif;
+}
+.firstsection {
+  background-color: #08748c4d;
+}
+#btn-11 {
+  background-color: #f97f0f;
+  color: #ffffff;
+}
+#btn-111 {
+  background-color: none;
+  border-color: #f97f0f;
+  color: #f97f0f;
+}
+#first-image {
+  background-image: url(./Images/Group\ 1.png);
+  background-image: no-repeat;
+  background-position: left;
+  background-position: cover;
+}
+.stats-wrapper {
+  position: relative;
+}
+
+.stats-container {
+  top: -44px !important;
+  margin: 0 auto;
+  display: flex;
+}
+
+#fluidd {
+  background-image: url(./Images/Group\ 1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.stats-card {
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 10px 10px 4px 4px;
+  min-height: 150px;
+}
+.third-section {
+  background-image: url(./Images/Group\ 3.png);
+  background-repeat: no-repeat;
+}
+.fourth-section {
+  background-color: #08748c4d;
+}
+/*  */
+.offer-li li::marker {
+  color: #f97f0f;
+  font-weight: bolder;
+  content: "•";
+}
+
+.bg-primary {
+  background-color: #b5d5dd !important;
+}
+
+.top-0 {
+  top: 27px !important;
+}
+
+.hero-section .top-50 {
+  top: 77% !important;
+}
+
+.rounded-5 {
+  border: 2px solid black !important;
+  background: #a6d5e0;
+  padding: 10px 15px !important;
+  line-height: 1 !important;
+}
+
+.rounded-5 p {
+  margin: 0px !important;
+}
+
+.tag_over_lay img {
+  height: 18px;
+}
+
+.hero-section .mx-lg {
+  margin-left: 9.3rem !important;
+}
+
+.hero-section .py-lg-5 {
+  padding-top: 3rem !important;
+}
+
+.bg-overlay {
+  background-image: url(/Images/bg_overlay.png);
+  height: 53vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.button-addon2 {
+  color: #f97f0f;
+  background-color: #f97f0f;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.ontainer {
+  background-color: #000000d8;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.wrapper {
+  display: flex;
+
+  gap: 43px;
+  justify-content: space-between;
+}
+
+.footer_tab1,
+.footer_tab2,
+.footer_tab3,
+.footer_tab4,
+.footer_tab5 {
+  flex: 4;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Righteous", sans-serif;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copy_right {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
